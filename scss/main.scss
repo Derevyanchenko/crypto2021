@@ -1,0 +1,19 @@
+@import './libs/bootstrap-grid.min.scss';
+@import 'base.scss';
+
+@import './blocks/_header.scss';
+@import './blocks/_banner.scss';
+@import './blocks/_advantages.scss';
+@import './blocks/_mapAndPeople.scss';
+@import './blocks/_bigBanks.scss';
+@import './blocks/_members.scss';
+@import './blocks/_white-wrapper.scss';
+@import './blocks/_aboutUs.scss';
+@import './blocks/_cta.scss';
+@import './blocks/_faq.scss';
+@import './blocks/_footer.scss';
+
+@import '_responsive.scss';
+
+// redesign
+@import '_redesign.scss';

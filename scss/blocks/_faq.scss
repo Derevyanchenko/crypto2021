@@ -1,0 +1,36 @@
+// faq
+
+.faq {
+    padding: 40px 0 60px;
+
+    .section__subtitle {
+        margin-top: .5rem;
+        margin-bottom: 3rem;
+    }
+
+    .faq__box__content {
+        padding: 30px 80px 30px 80px;
+        object-fit: contain;
+        border-radius: 24px;
+        border: solid 1px #cdd0e3;
+        background-color: #ffffff;
+        min-height: 170px;
+        margin-bottom: 20px;
+        .question {
+            font-size: 20px;
+            font-weight: 600;
+            line-height: 1.09;
+            letter-spacing: 0.34px;
+            color: #0d3390;
+            margin-bottom: 1rem;
+        }
+
+        .answer {
+            font-size: 17px;
+            line-height: 1.1;
+            letter-spacing: 0.31px;
+            color: #a8acb5;
+        }
+    }
+      
+}

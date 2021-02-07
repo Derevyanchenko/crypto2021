@@ -1,0 +1,322 @@
+// media
+
+@media (max-width: 1200px) {
+
+    body, html {
+        overflow-x: hidden;
+    }
+
+    h2 {
+        font-size: 40px;
+    }
+
+    .section__subtitle {
+        font-size: 25px;
+    }
+
+    .logo p {
+        display: none;
+    }
+
+    .banner .ribbon {
+        top: 95px;
+        width: 260px;
+    }
+
+    .advantages .rectangle {
+        padding: 5px;
+        margin-bottom: 20px;
+        /* background-size: contain; */
+    }
+
+    .advantages .rectangle-text p {
+        font-size: 20px;
+        line-height: 1.11;
+    }
+
+    .advantages .rectangle-text span {
+        font-size: 10px;
+        line-height: 1.2;
+    }
+
+    #advantages__row {
+        margin: 30px 0 20px;
+    } 
+
+    .btn-big {
+        padding: 30px 70px;
+        font-size: 25px;
+        font-weight: bold;
+        letter-spacing: 0.28px;
+        text-align: center;
+    }
+
+    .mapAndPeople .live-updates {
+        right: 1%;
+        top: calc(50% - 203px);
+    }
+
+    .mapAndPeople .earnings {
+        bottom: -20px;
+    }
+
+    .mapAndPeople .map-wrapper {
+        margin-bottom: 70px;
+    }
+
+}
+
+@media (max-width: 991px) {
+
+    h1 {
+        font-size: 40px;
+    }
+
+    .banner .ribbon {
+        width: 200px;
+        display: none;
+    }
+
+    .banner__form-wrapper {
+        margin-top: 15px;
+    }
+
+    .mapAndPeople p.nearnings {
+        font-size: 22px;
+        top: 4%;
+        left: 10%;
+    }
+
+    .mapAndPeople .live-updates {
+        position: initial;
+        margin: 0 auto;
+        margin-top: 50px;
+        margin-bottom: 40px;
+        max-width: 100%;
+    }
+
+    .mapAndPeople .earnings {
+        position: inherit;
+        margin-top: -50px;
+    }
+
+}
+
+@media (max-width: 767px) {
+
+    .banner {
+        padding: 20px 0 15px 0;
+    }
+
+    h1 {
+        font-size: 20px;
+        font-weight: bold;
+        font-stretch: normal;
+        font-style: normal;
+        line-height: 1.25;
+        letter-spacing: 0.31px;
+        text-align: center;
+        color: #ffffff;
+    }
+
+    .banner__form-title {
+        font-size: 18px;
+        font-weight: normal;
+        font-stretch: normal;
+        font-style: normal;
+        line-height: 1.22;
+        padding: 0 65px;
+    }
+
+    .banner__form-desc {
+        font-size: 16px;
+        padding: 0 20px;
+    }
+
+    form .btn-register {
+        min-height: 40px;
+    }
+
+    form .form-field {
+        height: 40px;
+    }
+
+    .header__wrapper .header__btn {
+        max-width: 250px;
+    }
+
+    .trust {
+        margin-top: 20px;
+    }
+
+    .advantages {
+        padding: 20px 0 40px;
+    }
+
+    h2 {
+        font-size: 26px;
+        font-weight: 600;
+        line-height: 1.08;
+        letter-spacing: 0.4px;
+    }
+
+    .advantages__text {
+        font-size: 20px;
+        line-height: 1.2;
+        letter-spacing: normal;
+    }
+
+    .gainFreeAccess {
+        padding: 20px 0;
+    }
+
+    .btn-big {
+        padding: 20px 50px;
+        font-size: 18px;
+        font-weight: bold;
+        letter-spacing: 0.28px;
+        text-align: center;
+    }
+
+    .mapAndPeople {
+        padding: 20px 0 40px;
+    }
+
+    .section__subtitle {
+        font-size: 22px;
+        font-weight: 300;
+        line-height: 1.09;
+        letter-spacing: 0.34px;
+    }
+
+    .mapAndPeople .live-updates p.fs16 {
+        text-align: center;
+    }
+
+    .mapAndPeople .map-wrapper {
+        margin: 20px 0;
+    }
+
+    .bigBanks {
+        padding: 20px 0 40px;
+        h2 {
+            text-align: center;
+        }
+        p.section__subtitle {
+            text-align: center;
+            margin-bottom: 20px;
+        }
+    }
+
+    .members {
+        padding: 20px 0 30px;
+        h2 {
+            margin-bottom: 10px;
+        }
+
+        .members__wrapper {
+            margin: 15px 0 30px 0;
+        }
+
+        .members__box-content .testimonial-text {
+            background-color: rgba(0, 0, 0, 0.5);
+            opacity: 1;
+          }
+    }
+
+    p.red-text {
+        text-align: center;
+        margin-bottom: 20px;
+    }
+
+    .forbes {
+        padding: 20px 0;
+    }
+    
+    .forbes__text {
+        font-size: 24px;
+        line-height: 1.13;
+        margin-top: 20px;
+    }
+
+    .aboutUs {
+        padding: 30px 0 40px;
+    }
+
+    .aboutUs img.aboutUs__img {
+        margin-right: auto;
+    }
+
+    .mapAndPeople .btn-green {
+        width: auto;
+    }
+
+    .cta {
+        padding: 50px 0;
+    }
+
+    .faq {
+        padding: 20px 0 30px;
+    }
+
+    .faq .faq__box__content {
+        padding: 30px 15px 20px;
+    }
+
+    .beforeFooterCta {
+        padding: 40px 0 10px;
+    }
+
+    .header__wrapper .logo img {
+        margin-top: 0;
+    }
+
+    .banner__form-wrapper {
+        padding: 20px 10px;
+        min-height: auto;
+    }
+
+    .mapAndPeople .earnings p {
+        font-size: 14px;
+        line-height: 1;
+        text-align: center;
+    }
+    
+    .mapAndPeople .big-ammount {
+        font-size: 16px;
+        font-weight: 900;
+        line-height: 1;
+        text-align: center;
+    }
+
+}
+
+
+@media (max-width: 480px) {
+    .mapAndPeople .map .mapdekstop{
+        display: none;
+    }
+
+    .mapAndPeople .map .mapmobile {
+        display: block;
+    }
+
+    .mapAndPeople p.nearnings {
+        font-size: 20px;
+        font-weight: bold;
+        line-height: 1.2;
+        letter-spacing: 0.31px;
+        top: 3%;
+        left: 23%;
+        max-width: 100%;
+    }
+}
+
+@media (max-width: 344px) {
+    .header__wrapper .header__btn .header__btn-counter {
+        border: none;
+        padding-right: 0;
+        font-size: 21px;
+    }
+}
+

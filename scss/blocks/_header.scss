@@ -1,0 +1,92 @@
+.header {
+    height: 90px;
+    padding: 20px 0 10px 0;
+}
+
+.header__wrapper {
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+
+    .logo {
+        display: flex;
+        align-items: center;
+        img {
+            max-width: 290px;
+            margin: 10px 10px 0.2px 0;
+            cursor: pointer;
+        }
+        p {
+            margin-top: 1rem;
+            font-size: 18px;
+            font-weight: normal;
+            font-stretch: normal;
+            font-style: normal;
+            line-height: 1;
+            letter-spacing: 0.28px;
+            color: #9fa2a9;
+        }
+    }
+
+    .header__btn {
+        display: flex;
+        justify-content: space-between;
+        max-width: 330px;
+        width: 100%;
+        padding: 6px 14px 4px 20px;
+        text-align: center;
+        min-height: 50px;
+        border-radius: 24px;
+        background-image: linear-gradient(to left, #f56576, #ce142a 100%);
+        box-shadow: 0 14px 20px 0 rgba(206, 20, 42, 0.25);
+        transition: 0.3s;
+        cursor: pointer;
+
+        .header__btn-counter {
+            margin: 8px 0;
+            font-size: 24px;
+            font-weight: bold;
+            font-stretch: normal;
+            font-style: normal;
+            line-height: 1;
+            letter-spacing: 0.37px;
+            color: #ffffff;
+            padding-right: 16px;
+            border-right: solid 1px #b1b1b1;
+        }
+
+        p {
+            font-size: 18px;
+            font-weight: bold;
+            font-stretch: normal;
+            font-style: normal;
+            line-height: 35px;
+            letter-spacing: 0.28px;
+            text-align: center;
+            color: #ffffff;
+        }
+
+        img {
+            width: 22px;
+            height: 20px;
+            margin: 10px 0 10px 0;
+            object-fit: contain;
+        }
+    }
+}
+
+img.mobile-logo {
+    display: none;
+    max-width: 50px;
+    max-height: 50px;
+    cursor: pointer;
+}
+
+@media (max-width: 768px) {
+    img.desktop-logo {
+        display: none;
+    }
+    img.mobile-logo {
+        display: inline-block;
+    }
+}
