@@ -1,0 +1,40 @@
+// thanks page
+
+.thanks-page {
+    h1 {
+        margin-bottom: 15px;
+    }
+    h2 {
+        font-size: 32px;
+        color: #fff;
+        margin-bottom: 3rem;
+    }
+
+}
+
+// media queries
+
+@media (max-width: 991px) {
+
+    .thanks-page h2 {
+        font-size: 24px;
+    }
+
+}
+
+
+@media (max-width: 767px) {
+
+    .thanks-page h2 {
+        font-size: 18px;
+    }
+
+}
+
+@media (max-width: 567px) {
+
+    .thanks-page h2 {
+        font-size: 16px;
+    }
+
+}
