@@ -211,6 +211,7 @@ jQuery(function ($) {
             // console.debug(this);
         },
     });
+    
 });
 
 $(".close-modal_profit-calc").on("click", function() {
@@ -219,6 +220,60 @@ $(".close-modal_profit-calc").on("click", function() {
 })
 
 $(document).ready(function () {
+
+    // $.get("https://ipinfo.io", function (response) { 
+	
+    //     let country = 'uk'; // United Kingdom
+                        
+    //     country = (response.country).toLowerCase();
+
+    //         // console.log(country)
+            
+    //         $(".phone").intlTelInput({
+    //                   allowDropdown:true,
+                    // autoPlaceholder:"polite",
+                    // separateDialCode:true,
+    //             initialCountry: country
+    //         });
+
+    // }, "jsonp");
+
+    // intlTelInput
+
+    let country = 'gb';
+
+    $("#phone").intlTelInput({
+      allowDropdown:true,
+      autoPlaceholder:"polite",
+      separateDialCode:true,
+      initialCountry: country
+    });
+
+    // intlTelInput end
+
+    // video date
+
+    $('.video-date').html(new Date().toLocaleDateString('en-GB', { year: 'numeric', month: 'numeric', day: 'numeric' }));
+
+    // video date end
+
+    // fixed video on pc
+
+    $(window).scroll(function(){
+
+        if ( $(this).scrollTop() > 900 ) {
+            $('#video').addClass('is-sticky');
+        } else {
+            $('#video').removeClass('is-sticky');
+        }
+
+        // $('#video').addClass('is-sticky', $(this).scrollTop() > 900);
+    });
+    
+
+    // fixed video on pc end
+        
+
     var e = 0;
     if (
         (document.addEventListener(
@@ -263,4 +318,12 @@ $(document).ready(function () {
     initCountDown();
     liveUkTime();
     liveDate();
+});
+
+$(window).on("load resize", function() {
+
+    if( $(window).width() <= 991 ) {
+        $('#video').removeClass('is-sticky');
+    }
+
 });

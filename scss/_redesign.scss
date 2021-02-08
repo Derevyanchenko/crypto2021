@@ -85,3 +85,12 @@
 // .height-helper input[type=range] {
 //     background-image: linear-gradient(to left, #4e68a2, #404577 100%) !important;
 // }
+
+#popup .wrapper .btn-blue {
+    background-image: linear-gradient(to left, #4e68a2, #404577 100%);
+    box-shadow: 0 19px 20px 0 rgba(49, 71, 206, .25);
+    &:hover {
+        background-image: linear-gradient(to left, #f56576, #ce142a 100%);
+        box-shadow: none;
+    }
+}
