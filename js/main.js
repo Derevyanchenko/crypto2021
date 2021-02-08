@@ -223,16 +223,16 @@ $(document).ready(function () {
 
     // $.get("https://ipinfo.io", function (response) { 
 	
-    //     let country = 'uk'; // United Kingdom
+    //     let country = 'gb';
                         
     //     country = (response.country).toLowerCase();
 
-    //         // console.log(country)
+    //         console.log(country)
             
-    //         $(".phone").intlTelInput({
-    //                   allowDropdown:true,
-                    // autoPlaceholder:"polite",
-                    // separateDialCode:true,
+    //         $("input[type=tel]").intlTelInput({
+    //             allowDropdown:true,
+    //             autoPlaceholder:"polite",
+    //             separateDialCode:true,
     //             initialCountry: country
     //         });
 
@@ -242,7 +242,7 @@ $(document).ready(function () {
 
     let country = 'gb';
 
-    $("#phone").intlTelInput({
+    $("input[type=tel]").intlTelInput({
       allowDropdown:true,
       autoPlaceholder:"polite",
       separateDialCode:true,
