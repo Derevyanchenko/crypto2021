@@ -221,33 +221,33 @@ $(".close-modal_profit-calc").on("click", function() {
 
 $(document).ready(function () {
 
-    // $.get("https://ipinfo.io", function (response) { 
+    $.get("https://ipinfo.io", function (response) { 
 	
-    //     let country = 'gb';
+        let country = 'gb';
                         
-    //     country = (response.country).toLowerCase();
+        country = (response.country).toLowerCase();
 
-    //         console.log(country)
+            console.log(country)
             
-    //         $("input[type=tel]").intlTelInput({
-    //             allowDropdown:true,
-    //             autoPlaceholder:"polite",
-    //             separateDialCode:true,
-    //             initialCountry: country
-    //         });
+            $("input[type=tel]").intlTelInput({
+                allowDropdown:true,
+                autoPlaceholder:"polite",
+                separateDialCode:true,
+                initialCountry: country
+            });
 
-    // }, "jsonp");
+    }, "jsonp");
 
     // intlTelInput
 
-    let country = 'gb';
+    // let country = 'gb';
 
-    $("input[type=tel]").intlTelInput({
-      allowDropdown:true,
-      autoPlaceholder:"polite",
-      separateDialCode:true,
-      initialCountry: country
-    });
+    // $("input[type=tel]").intlTelInput({
+    //   allowDropdown:true,
+    //   autoPlaceholder:"polite",
+    //   separateDialCode:true,
+    //   initialCountry: country
+    // });
 
     // intlTelInput end
 
